@@ -1,0 +1,17 @@
+{
+  "name": "testTaskByndyusoft",
+  "version": "1.0.0",
+  "dependencies": {
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
